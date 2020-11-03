@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="425.0" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="aula32.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="136.0" layoutY="256.0" onAction="#handleButtonAction" text="Enviar" />
+        <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="119.0" layoutY="294.0" minHeight="16" minWidth="58.0" prefHeight="17.0" prefWidth="83.0" textAlignment="CENTER" />
+      <DatePicker fx:id="data" layoutX="74.0" layoutY="14.0" />
+      <TableView fx:id="tabelaPessoa" layoutX="10.0" layoutY="47.0" prefHeight="200.0" prefWidth="301.0">
+        <columns>
+          <TableColumn fx:id="clID" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="clNome" prefWidth="75.0" text="Nome" />
+            <TableColumn fx:id="clEmail" prefWidth="75.0" text="Email" />
+            <TableColumn fx:id="clEndereco" prefWidth="75.0" text="Endereço" />
+        </columns>
+      </TableView>
+      <Label fx:id="label1" alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="321.0" prefHeight="17.0" prefWidth="122.0" textAlignment="CENTER" />
+      <Label fx:id="label2" alignment="CENTER" contentDisplay="CENTER" layoutX="87.0" layoutY="338.0" prefHeight="17.0" prefWidth="151.0" textAlignment="CENTER" />
+      <Label fx:id="label3" alignment="CENTER" contentDisplay="CENTER" layoutX="83.0" layoutY="355.0" prefHeight="17.0" prefWidth="159.0" textAlignment="CENTER" />
+    </children>
+</AnchorPane>
